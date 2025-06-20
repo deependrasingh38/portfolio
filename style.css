@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: tan;
+}
+header {
+    background-color: rgb(60, 126, 2);
+    padding: 1rem;
+    color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+
+}
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+
+}
+.highlight {
+    color: red;
+}
+.project-card {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 60%;
+        margin: auto;
+
+}
+form input , form textarea {
+    padding: 0.5rem;
+    border: 1px solid blue;
+
+}
+form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+}
+footer {
+    background-color: rgb(60, 126, 2);
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+.logo {
+    font-size: 3rem;
+    color: white;
+    
+}
