@@ -1,0 +1,83 @@
+        body {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px 20px;
+  background-color: #201479;
+  color: #274c63;
+}
+
+h1 {
+  text-align: center;
+  color: #e6ebec;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+#form-container {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+select, input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #2ecc71;
+}
+
+#bill {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+#bill h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+#total-amount {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e74c3c;
+}
