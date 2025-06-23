@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <h1>Unique Computers's Restaurant Bill Generator Project using HTML, CSS and JS</h1>
+    <div id="form-container">
+       <select  id="item-name" onchange="updatePrice()">
+        <option value="">Select Item Name</option>
+       </select>
+       <select id="item-qty" onchange="updatePrice()">
+        <option value="">Select Quantity</option>
+        <script>
+            for(let i=1; i<=10; i++) {
+
+                document.write(`<option value="${i}">${i}</option>`);
+            }
+        </script>
+       </select>
+       <input type="text" placeholder="price" id="item-price" readonly size="5">
+        <button class="btn" onclick="addItem()">Add New Item</button>
+    </div>
+
+    <div id="bill">
+        <h3>Bill</h3>
+        <p><strong>Date : </strong><span id="date"></span></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="bill-items">
+                
+            </tbody>
+        </table>
+        <h3>Total : <span id="total-amount">0</span></h3>
+
+
+        <button class="btn" onclick="printBill()">Print</button>
+        <button class="btn" onclick="downloadPDF()">Save as PDF</button>
+
+        <script href="scriptt.js"></script>
+    </div>
+</body>
+</html>
